@@ -3,7 +3,9 @@ import React from "react";
 const Navbar = () => {
     return (
         <>
-            <div className="flex items-center justify-center h-[15vh] mt-[10vh]">
+            <div className="h-[25vh] flex flex-col items-center justify-center w-[100vw]">
+
+            <div className="flex items-center justify-center h-[15vh] w-[100vw]">
                 {/* <img src="#" alt="" /> */}
                 <div className="w-[100%] text-white h-[56px] rounded-[20px] bg-white bg-opacity-5 flex items-center justify-around ">
                     <ul className="flex justify-between w-[35vw] ">
@@ -63,6 +65,7 @@ const Navbar = () => {
                         </button>
                     </div>
                 </div>
+            </div>
             </div>
             
         </>
