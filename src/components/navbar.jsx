@@ -24,25 +24,25 @@ const Navbar = () => {
                             Contact
                         </li>
                     </ul>
-                    <ul className="flex justify-between w-[26vw]">
-                        <li className="flex items-center cursor-pointer group relative w-[6.5vw]">
+                    <ul className="flex justify-between w-[29vw]">
+                        <li className="flex items-center cursor-pointer group relative w-[6.8vw]">
                             <img src="/arrow.png" alt="" className="h-[16px] w-[16px] opacity-0 group-hover:opacity-100 duration-300 transition-all ease-in-out"/>
-                            <div className="text-[#BAD7F5] absolute group-hover:left-5 left-0 transition-all duration-300 ease-in-out">About us</div>
+                            <div className="text-[#BAD7F5] absolute group-hover:left-6 left-0 transition-all duration-300 ease-in-out">About us</div>
                             <img src="/arrow.png" alt="" className="h-[16px] w-[16px] opacity-100 group-hover:opacity-0 transition-all duration-300 ease-in-out absolute right-0"/>
                         </li>
-                        <li className="flex items-center cursor-pointer group relative w-[5.2vw]">
+                        <li className="flex items-center cursor-pointer group relative w-[5.5vw]">
                             <img src="/arrow.png" alt="" className="h-[16px] w-[16px] opacity-0 group-hover:opacity-100 duration-300 transition-all ease-in-out"/>
-                            <div className="text-[#BAD7F5] absolute group-hover:left-5 left-0 transition-all duration-300 ease-in-out">Stacks</div>
+                            <div className="text-[#BAD7F5] absolute group-hover:left-6 left-0 transition-all duration-300 ease-in-out">Stacks</div>
                             <img src="/arrow.png" alt="" className="h-[16px] w-[16px] opacity-100 group-hover:opacity-0 transition-all duration-300 ease-in-out absolute right-0"/>
                         </li>
-                        <li className="flex items-center cursor-pointer group relative w-[8.5vw]">
+                        <li className="flex items-center cursor-pointer group relative w-[8.8vw]">
                             <img src="/arrow.png" alt="" className="h-[16px] w-[16px] opacity-0 group-hover:opacity-100 duration-300 transition-all ease-in-out"/>
-                            <div className="text-[#BAD7F5] absolute group-hover:left-5 left-0 transition-all duration-300 ease-in-out">Case Studies</div>
+                            <div className="text-[#BAD7F5] absolute group-hover:left-6 left-0 transition-all duration-300 ease-in-out">Case Studies</div>
                             <img src="/arrow.png" alt="" className="h-[16px] w-[16px] opacity-100 group-hover:opacity-0 transition-all duration-300 ease-in-out absolute right-0"/>
                         </li>
-                        <li className="flex items-center cursor-pointer group relative w-[4.5vw]">
+                        <li className="flex items-center cursor-pointer group relative w-[4.8vw]">
                             <img src="/arrow.png" alt="" className="h-[16px] w-[16px] opacity-0 group-hover:opacity-100 duration-300 transition-all ease-in-out"/>
-                            <div className="text-[#BAD7F5] absolute group-hover:left-5 left-0 transition-all duration-300 ease-in-out">Docs</div>
+                            <div className="text-[#BAD7F5] absolute group-hover:left-6 left-0 transition-all duration-300 ease-in-out">Docs</div>
                             <img src="/arrow.png" alt="" className="h-[16px] w-[16px] opacity-100 group-hover:opacity-0 transition-all duration-300 ease-in-out absolute right-0"/>
                         </li>
                         
