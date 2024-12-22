@@ -5,7 +5,7 @@ import Navbar from './components/navbar'
 function App() {
   return (
     <>
-      <div className='bg-[#10141C] h-[100vh] w-[100vw]'>
+      <div className='bg-[#0f161f] h-[100vh] w-[100vw]'>
         <Navbar/>
       </div>
     </>

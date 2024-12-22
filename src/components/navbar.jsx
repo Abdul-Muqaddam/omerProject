@@ -5,7 +5,7 @@ const Navbar = () => {
         <>
             <div className="flex items-center justify-center h-[15vh]">
                 {/* <img src="#" alt="" /> */}
-                <div className="w-[88.39%] text-white h-[56px] rounded-[20px] bg-white bg-opacity-5 flex items-center justify-around ">
+                <div className="w-[100%] text-white h-[56px] rounded-[20px] bg-white bg-opacity-5 flex items-center justify-around ">
                     <ul className="flex justify-between w-[35vw] ">
                         <li className="flex gap-2 cursor-pointer ">
                             <img src="/dot.svg" alt="" />
@@ -50,10 +50,10 @@ const Navbar = () => {
                         
                     </ul>
                     <div className="flex gap-3">
-                        <button className="flex items-center group">
-                            <img src="/arrow.png" alt="" className="h-[16px] w-[16px] hidden group-hover:block" />
-                            <div className="text-[#BAD7F5]">Sign in</div>
-                            <img src="/arrow.png" alt="" className="h-[16px] w-[16px] group-hover:hidden" />
+                        <button className="flex items-center group relative w-[65px]">
+                            <img src="/arrow.png" alt="" className="h-[16px] w-[16px] opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in-out" />
+                            <div className="text-[#BAD7F5] transition-all duration-300 ease-in-out absolute left-0 group-hover:left-4">Sign in</div>
+                            <img src="/arrow.png" alt="" className="h-[16px] w-[16px] group-hover:opacity-0 absolute right-0 transition-all duration-300 ease-in-out" />
                         </button>
                         <button>
                             <div className="text-black bg-[#BAD7F5] w-[130.61px] h-[42.76px] flex items-center justify-center rounded-[16px] text-[18px] hover:h-[40.76px] hover:w-[128.61px] transition-all duration-500 ease-in-out">
@@ -64,6 +64,7 @@ const Navbar = () => {
                     </div>
                 </div>
             </div>
+            
         </>
     )
 }
