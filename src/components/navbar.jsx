@@ -3,7 +3,7 @@ import React from "react";
 const Navbar = () => {
     return (
         <>
-            <div className="h-[25vh] flex flex-col items-center justify-center w-[100vw]">
+            <div className="h-[75vh] flex flex-col items-center justify-center w-[100vw]">
 
             <div className="flex items-center justify-center h-[15vh] w-[100vw]">
                 {/* <img src="#" alt="" /> */}
