@@ -67,9 +67,9 @@ const Navbar = () => {
                     </div>
                 </div>
 
-                <div className="bg-[#1A263E] h-[55px] w-[483px] rounded-[16px] border border-[#2A3D5E] hover:scale-105 transition-all duration-300 ease-in-out flex items-center justify-center gap-3">
+                <div className="bg-[#1A263E] h-[55px] w-[483px] rounded-[16px] border border-[#2A3D5E] hover:scale-105 transition-all duration-300 ease-in-out flex items-center justify-center gap-3 mt-10">
                     <img src="/logo.webp" alt="" className="h-[30px] w-[30px]" />
-                    <div className=" flex gap-3">
+                    <div className=" flex gap-3 items-center">
                         <div className="text-[#BAD7F5] text-[1.3rem] transition-all duration-300 ease-in-out">
                             Discover our user journey 
                         </div>
